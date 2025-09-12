@@ -112,9 +112,9 @@ CSS STRUCTURE:
 
 /* Theme Colors */
 :root {
-  /* --accent-color: #E9CDD3; */
-  --accent-color: #DBAEB7;
-  --secondary-color: #E9CDD3;
+  /* --accent-color: #C2D6CD; */
+  --accent-color: #82AB99;
+  --secondary-color: #C2D6CD;
   --dark-color: #2e2e2e;
   --grey-color: #E9E9E3;
   --heading-color: #111;
@@ -125,8 +125,8 @@ CSS STRUCTURE:
   --bg-text-color: #f1f1f1;
   --dark-text-color: #2f2f2f;
 
-  --bs-primary-rgb: 219, 174, 183;
-  --bs-secondary-rgb: 233, 205, 211;
+  --bs-primary-rgb: 130, 171, 153;
+  --bs-secondary-rgb: 194, 214, 205;
 }
 
 /* Fonts */
@@ -1668,5 +1668,6 @@ button.filter-button:hover {
   border-radius: 30px;
 
 }
+
 
 
