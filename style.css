@@ -203,6 +203,13 @@ h6.light,
   color: #fff;
 }
 
+emilyedit
+    {
+    line-height: 1.4;
+  color: var(--dark-color);
+  font-family: var(--body-font);
+}
+
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 code {
@@ -1679,6 +1686,7 @@ button.filter-button:hover {
   border-radius: 30px;
 
 }
+
 
 
 
