@@ -168,8 +168,7 @@ h4,
 .h4,
 h5,
 .h5,
-h6,
-.h6 {
+{
   line-height: 1.2;
   color: var(--dark-color);
   font-family: var(--heading-font);
@@ -180,6 +179,13 @@ h3,
   line-height: 1.2;
   color: var(--dark-color);
   font-family: var(--secondary-font);
+}
+
+h6,
+.h6 {
+    line-height: 1.2;
+  color: var(--dark-color);
+  font-family: var(--body-font);
 }
 
 h1.light,
@@ -1673,6 +1679,7 @@ button.filter-button:hover {
   border-radius: 30px;
 
 }
+
 
 
 
