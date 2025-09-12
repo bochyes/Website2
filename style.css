@@ -112,21 +112,21 @@ CSS STRUCTURE:
 
 /* Theme Colors */
 :root {
-  /* --accent-color: #DBCBB8; */
-  --accent-color: #8F6D4E;
-  --secondary-color: #DBCBB8;
-  --dark-color: #2f2f2f;
-  --grey-color: #f6f1ea;
+  /* --accent-color: #E9CDD3; */
+  --accent-color: #DBAEB7;
+  --secondary-color: #E9CDD3;
+  --dark-color: #2e2e2e;
+  --grey-color: #E9E9E3;
   --heading-color: #111;
-  --body-text-color: #616161;
+  --body-text-color: ##969696;
   --light-heading-color: #fff;
   --light-background-color: #fff;
   --light-text-color: #afafaf;
   --bg-text-color: #f1f1f1;
   --dark-text-color: #2f2f2f;
 
-  --bs-primary-rgb: 143, 109, 78;
-  --bs-secondary-rgb: 219, 203, 184;
+  --bs-primary-rgb: 219, 174, 183;
+  --bs-secondary-rgb: 233, 205, 211;
 }
 
 /* Fonts */
@@ -1668,4 +1668,5 @@ button.filter-button:hover {
   border-radius: 30px;
 
 }
+
 
