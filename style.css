@@ -131,9 +131,9 @@ CSS STRUCTURE:
 
 /* Fonts */
 :root {
-  --body-font: "Garet", sans-serif;
-  --heading-font: "DM Serif Display", serif;
-  --secondary-font: "Playfair Display", Georgia, serif;
+  --body-font: "Garet-Book", sans-serif;
+  --heading-font: "DMSerifDisplay-Regular", serif;
+  --secondary-font: "PlayfairDisplay-Regular", serif;
 }
 
 
@@ -1668,3 +1668,4 @@ button.filter-button:hover {
   border-radius: 30px;
 
 }
+
