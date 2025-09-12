@@ -118,7 +118,7 @@ CSS STRUCTURE:
   --dark-color: #2e2e2e;
   --grey-color: #E9E9E3;
   --heading-color: #111;
-  --body-text-color: ##969696;
+  --body-text-color: #969696;
   --light-heading-color: #fff;
   --light-background-color: #fff;
   --light-text-color: #afafaf;
@@ -1698,6 +1698,7 @@ button.filter-button:hover {
   border-radius: 30px;
 
 }
+
 
 
 
