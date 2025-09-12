@@ -112,28 +112,28 @@ CSS STRUCTURE:
 
 /* Theme Colors */
 :root {
-  /* --accent-color: #DBCBB8; */
-  --accent-color: #8F6D4E;
-  --secondary-color: #DBCBB8;
-  --dark-color: #2f2f2f;
-  --grey-color: #f6f1ea;
+  /* --accent-color: #C2D6CD; */
+  --accent-color: #82AB99;
+  --secondary-color: #C2D6CD;
+  --dark-color: #2e2e2e;
+  --grey-color: #E9E9E3;
   --heading-color: #111;
-  --body-text-color: #616161;
+  --body-text-color: ##969696;
   --light-heading-color: #fff;
   --light-background-color: #fff;
   --light-text-color: #afafaf;
   --bg-text-color: #f1f1f1;
   --dark-text-color: #2f2f2f;
 
-  --bs-primary-rgb: 143, 109, 78;
-  --bs-secondary-rgb: 219, 203, 184;
+  --bs-primary-rgb: 130, 171, 153;
+  --bs-secondary-rgb: 194, 214, 205;
 }
 
 /* Fonts */
 :root {
-  --body-font: "Quicksand", sans-serif;
-  --heading-font: "Nunito", sans-serif;
-  --secondary-font: "Playfair Display", Georgia, serif;
+  --body-font: "Garet-Book", sans-serif;
+  --heading-font: "DMSerifDisplay-Regular", serif;
+  --secondary-font: "PlayfairDisplay-Regular", serif;
 }
 
 
@@ -164,8 +164,6 @@ h1,
 .h1,
 h2,
 .h2,
-h3,
-.h3,
 h4,
 .h4,
 h5,
@@ -175,6 +173,13 @@ h6,
   line-height: 1.2;
   color: var(--dark-color);
   font-family: var(--heading-font);
+}
+
+h3,
+.h3 {
+  line-height: 1.2;
+  color: var(--dark-color);
+  font-family: var(--secondary-font);
 }
 
 h1.light,
@@ -1666,4 +1671,10 @@ button.filter-button:hover {
   color: var(--accent-color);
   padding: 0.56rem 1.19rem;
   border-radius: 30px;
+
 }
+
+
+
+
+
