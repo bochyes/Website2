@@ -159,6 +159,7 @@ CSS STRUCTURE:
 /*----------------------------------------------*/
 /* 2 GENERAL TYPOGRAPHY */
 /*----------------------------------------------*/
+
 body {
   font-family: var(--body-font);
   font-size: 16px;
@@ -177,53 +178,31 @@ a:hover {
   text-decoration: none;
 }
 
-/* Typography */
-/*----------------------------------------------*/
-h1,
-.h1,
-h2,
-.h2,
-h4,
-.h4,
-h5,
-.h5
-{
-  line-height: 1.2;
-  color: var(--dark-color);
+/* Headings */
+h1, h2, h4, h5 {
   font-family: var(--heading-font);
-}
-
-h3,
-.h3 {
   line-height: 1.2;
   color: var(--dark-color);
+}
+
+h3 {
   font-family: var(--secondary-font);
-}
-
-h6,
-.h6 {
-    line-height: 1.4;
+  line-height: 1.2;
   color: var(--dark-color);
+}
+
+h6 {
   font-family: var(--body-font);
+  line-height: 1.4;
+  color: var(--dark-color);
 }
 
-h1.light,
-.h1,
-h2.light,
-.h2,
-h3.light,
-.h3,
-h4.light,
-.h4,
-h5.light,
-.h5,
-h6.light,
-.h6 {
-  color: #fff;
+/* Light Headings */
+h1.light, h2.light, h3.light, h4.light, h5.light, h6.light {
+  color: var(--light-heading-color);
 }
 
-/* Code
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Code Styling */
 code {
   padding: .2rem .5rem;
   margin: 0 .2rem;
@@ -234,15 +213,14 @@ code {
   border-radius: 4px;
 }
 
-pre>code {
+pre > code {
   display: block;
   padding: 1rem 1.5rem;
   white-space: pre;
   color: var(--accent-color);
 }
 
-/* Misc
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Misc */
 hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
@@ -1698,6 +1676,7 @@ button.filter-button:hover {
   border-radius: 30px;
 
 }
+
 
 
 
