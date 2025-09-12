@@ -186,7 +186,7 @@ h2,
 h4,
 .h4,
 h5,
-.h5,
+.h5
 {
   line-height: 1.2;
   color: var(--dark-color);
@@ -220,13 +220,6 @@ h5.light,
 h6.light,
 .h6 {
   color: #fff;
-}
-
-emilyedit
-    {
-    line-height: 1.4;
-  color: var(--dark-color);
-  font-family: var(--body-font);
 }
 
 /* Code
@@ -1705,6 +1698,7 @@ button.filter-button:hover {
   border-radius: 30px;
 
 }
+
 
 
 
