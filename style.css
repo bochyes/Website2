@@ -135,13 +135,14 @@ CSS STRUCTURE:
     src: url("bochyes.github.io\Website2\assets\icomoon\fonts\Garet-Book.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
+}
 
 @font-face {
     font-family: DMSerifDisplay-Regular;
     src: url("bochyes.github.io\Website2\assets\icomoon\fonts\DMSerifDisplay-Regular.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
-
+}
 @font-face {
     font-family: PlayfairDisplay-Regular;
     src: url("bochyes.github.io\Website2\assets\icomoon\fonts\PlayfairDisplay-Regular.ttf") format('truetype');
@@ -1704,6 +1705,7 @@ button.filter-button:hover {
   border-radius: 30px;
 
 }
+
 
 
 
