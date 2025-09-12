@@ -150,9 +150,9 @@ CSS STRUCTURE:
     font-style: normal;
 }
 :root {
-  --body-font: font-family: "Garet-Book", sans-serif;
-  --heading-font: font-family: "DMSerifDisplay-Regular", serif;
-  --secondary-font: font-family: "PlayfairDisplay-Regular", serif;
+  --body-font: "Garet-Book", sans-serif;
+  --heading-font: "DMSerifDisplay-Regular", serif;
+  --secondary-font: "PlayfairDisplay-Regular", serif;
 }
 
 
@@ -1705,6 +1705,7 @@ button.filter-button:hover {
   border-radius: 30px;
 
 }
+
 
 
 
