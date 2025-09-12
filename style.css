@@ -130,25 +130,31 @@ CSS STRUCTURE:
 }
 
 /* Fonts */
+
 @font-face {
-    font-family: Garet-Book;
-    src: url("https://bochyes.github.io/Website2/assets/icomoon/fonts/Garet-Book.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: Garet-Book;
+  src: url("https://bochyes.github.io/Website2/assets/icomoon/fonts/Garet-Book.woff2") format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: DMSerifDisplay-Regular;
-    src: url("https://bochyes.github.io/Website2/assets/icomoon/fonts/DMSerifDisplay-Regular.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: DMSerifDisplay-Regular;
+  src: url("https://bochyes.github.io/Website2/assets/icomoon/fonts/DMSerifDisplay-Regular.woff2") format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
 @font-face {
-    font-family: PlayfairDisplay-Regular;
-    src: url("https://bochyes.github.io/Website2/assets/icomoon/fonts/PlayfairDisplay-Regular.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: PlayfairDisplay-Regular;
+  src: url("https://bochyes.github.io/Website2/assets/icomoon/fonts/PlayfairDisplay-Regular.woff2") format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
 :root {
   --body-font: "Garet-Book", sans-serif;
   --heading-font: "DMSerifDisplay-Regular", serif;
@@ -1676,6 +1682,7 @@ button.filter-button:hover {
   border-radius: 30px;
 
 }
+
 
 
 
