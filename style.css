@@ -179,7 +179,8 @@ h3,
 .h3 {
   line-height: 1.2;
   color: var(--dark-color);
-  font-family: var(--secondary-font)
+  font-family: var(--secondary-font);
+}
 
 h1.light,
 .h1,
@@ -1672,6 +1673,7 @@ button.filter-button:hover {
   border-radius: 30px;
 
 }
+
 
 
 
