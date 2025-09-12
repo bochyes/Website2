@@ -131,8 +131,8 @@ CSS STRUCTURE:
 
 /* Fonts */
 :root {
-  --body-font: "Quicksand", sans-serif;
-  --heading-font: "Nunito", sans-serif;
+  --body-font: "Garet", sans-serif;
+  --heading-font: "DM Serif Display", serif;
   --secondary-font: "Playfair Display", Georgia, serif;
 }
 
@@ -1666,4 +1666,5 @@ button.filter-button:hover {
   color: var(--accent-color);
   padding: 0.56rem 1.19rem;
   border-radius: 30px;
+
 }
